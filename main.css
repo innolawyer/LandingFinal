@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+     background-color:#269;
+    background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px; 
+    
+}
+
+.name {
+    font-size: 150%;
+}
+
+.other-info {
+    font-size: 80%;
+}
+
+.container {
+    color: black;
+    border: black solid 5px;
+    font-size: 24px;
+    background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 1.8em, rgba(135, 206, 235, .5) 2em)
+      4em 0 repeat-y,
+    linear-gradient(
+      rgba(255,255,255, 0) 1.9em, rgba(0, 0, 0, .15) 2em)
+    0 0;
+    background-size: 2em 2em;
+    background-color: ivory;     
+    
+
+  
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.title-container {    
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    margin-bottom: 25px;
+    font-size: 110%;
+}
+a {
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+}
+.head-container { 
+    
+    margin-bottom: 25px;
+    display: inline-flex;
+}
+.date-container {    
+    
+    margin-bottom: 25px;
+}
+.english-level-container {    
+    
+    margin-bottom: 25px;
+}
+.skills-container {    
+    
+    margin-bottom: 25px;
+}
+.sociability-container {
+
+    display: flex;
+    margin-bottom: 25px;
+}
+.desired-salary-container {    
+    
+    margin-bottom: 25px;
+}
+.suitable-skills-container {    
+    
+    margin-bottom: 25px;
+}
+.education-container {    
+    
+    margin-bottom: 25px;
+}
+.picture-container {    
+    
+    width: 200px;
+    margin-bottom: 12px;
+}
+img {
+    transition: all 2s ease-in-out;
+}
+img:hover{
+    transform: rotate(720deg);
+}
+.info-container {   
+    font-family: 'Oswald', sans-serif;    
+    color: gray;
+    font-size: 20px;
+    width: 600px;
+    margin-bottom: 12px;
+}
+.date {
+    margin-right: 10px;
+}
+
+h1:hover {
+    color: red;
+}
+
+.soc-lable {
+    margin-right: 10px;
+}
+
+input {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 24px;   
+}
+
+table {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    font-size: 110%;  
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  p {
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    font-size: 110%; 
+  }
+
+  #input-exp {
+      margin-right: 10px;
+  }
+
+  tr:hover {
+      color: red;
+  }
+
+  button {
+    
+    border: 10px 0 blue;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 4px 8px;
+    
+  }
+
+  button:hover {
+      border-color: red;
+  }
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <title>Форма для заполнения 1-hr</title>
+    
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="title-container">
+            <H1 class="tmp" align="center">Вакансия Senior Frontend Developer</H1>
+        </div>
+        <div class="head-container">
+            <span class="picture-container">
+                <img src="./pictures/Максим.jpg" alt="аватарка" width="165" height="225"> 
+            </span>
+            <div class="info-container">
+                <p class="name">Карбаинов Максим</p>
+                <a href="https://github.com/Karbainov">GitHub</a>
+                <p class="other-info">Опыт работы:400 лет 2 месяца и 3 дня</p>
+            </div>
+        </div>
+
+        <div class="date-container">
+            <span class="date">Дата собеседования</span>
+            <input type="date" value="2021-06-01">            
+        </div>
+
+        <div class="english-level-container">
+            <p>Уровень английского</p>
+            <label>
+                <input type="radio" name="englvl" value="А1"> А1
+            </label>
+            <label>
+                <input type="radio" name="englvl" value="А2"> А2
+              </label>
+              <label>
+                <input type="radio" name="englvl" value="B1"> B1
+              </label>
+              <label>
+                <input type="radio" name="englvl" value="B2"> B2
+              </label>
+              <label>
+                <input type="radio" name="englvl" value="C1"> C1
+              </label>
+              <label>
+                <input type="radio" name="englvl" value="C2"> C2
+              </label>
+        </div>
+
+        <div class="skills-container">
+            <p>Ключевые навыки:</p>
+        <ul>
+            <li>Освоил Windows 98</li>
+            <li>Способность сидеть</li>
+            <li>Иногда поёт</li>
+            <li>Любит котов по четвергам</li>
+        </ul>
+        <input type="text" id="input-exp" name="exp"> 
+        <button>Добавить навык</button>
+        <br>
+        </div>
+
+        <div class="sociability-container">
+            <div class="soc-lable">Коммуникабельность </div>
+            <div class="soc-level-list">
+              <input list="soc-level" placeholder="Выбрать нужное значение" size="27">
+              <datalist id="soc-level">
+              <option value="Бабка перед подъездом">
+              <option value="Раз в день просит еду">
+              <option value="Молчит, если потушить свет">
+              <option value="Возможно немой">  
+              </datalist>
+            </div>  
+        </div>
+
+        <div class="desired-salary-container">
+            <span class="date">Желаемая заработная плата</span>
+            <input type="number">
+        </div>
+
+        <div class="suitable-skills-container">
+            <p>Подходит по навыкам</p>
+            <input type="checkbox" name="first">
+            <label for="first">Знание английского</label>
+            <input type="checkbox" name="second">
+            <label for="first">Оклад</label>
+            <input type="checkbox" name="third">
+            <label for="first">Навыки</label>
+            <input type="checkbox" name="fourth">
+            <label for="first">Сразу видно что свой человек</label>
+        </div>
+
+        <div class="education-container">
+          <p>Образование, курсы и т.п.</p>
+          <table class="edu-table">
+            <tr>
+              <th>#</th>
+              <th>Срок обучения</th>
+              <th>Наименование учебного заведения, курсов</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>7 месяцев</td>
+              <td>DevEducation</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>5 лет</td>
+              <td>Университет имени Пупкина</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>2 года</td>
+              <td>Курсы пикапа, академия Brazzers</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>3 месяца</td>
+              <td>Автошкола имени Доминика Торетто</td>
+            </tr>            
+          </table>          
+        </div>
+
+    </div>
+    
+</body>
+</html>
